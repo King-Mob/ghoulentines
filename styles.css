@@ -1,0 +1,293 @@
+html {
+  font-size: 150%;
+}
+
+body {
+  background-color: pink;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: 10rem;
+  color: rgb(255 103 145);
+}
+
+#happy {
+  position: relative;
+  margin-top: 15%;
+  left: 65%;
+  width: 0rem;
+}
+
+#happy span {
+  font-family: MonoSpace;
+  height: 30rem;
+  position: absolute;
+  width: 5rem;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+
+.char1 {
+  transform: rotate(-40deg);
+}
+.char2 {
+  transform: rotate(-20deg);
+}
+.char3 {
+  transform: rotate(0deg);
+}
+.char4 {
+  transform: rotate(20deg);
+}
+.char5 {
+  transform: rotate(40deg);
+}
+
+#beating-heart-container {
+  position: absolute;
+  left: 56%;
+  top: 35%;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#beating-heart {
+  font-size: 12rem;
+
+  animation: beat 1s infinite linear;
+}
+
+@keyframes beat {
+  0% {
+    font-size: 12rem;
+  }
+  10% {
+    font-size: 14rem;
+  }
+  20% {
+    font-size: 12rem;
+  }
+  60% {
+    font-size: 12rem;
+  }
+  70% {
+    font-size: 14rem;
+  }
+  80% {
+    font-size: 12rem;
+  }
+}
+
+#valentines-day {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  width: 0rem;
+}
+
+#valentines-day span {
+  font-family: MonoSpace;
+  font-size: 8rem;
+  padding-top: 15rem;
+  position: absolute;
+  width: 5rem;
+  left: 0;
+  top: 0;
+  transform-origin: top center;
+}
+
+#valentines-day .char1 {
+  transform: rotate(84deg);
+}
+#valentines-day .char2 {
+  transform: rotate(72deg);
+}
+#valentines-day .char3 {
+  transform: rotate(60deg);
+}
+#valentines-day .char4 {
+  transform: rotate(48deg);
+}
+#valentines-day .char5 {
+  transform: rotate(36deg);
+}
+#valentines-day .char6 {
+  transform: rotate(24deg);
+}
+#valentines-day .char7 {
+  transform: rotate(12deg);
+}
+#valentines-day .char8 {
+  transform: rotate(0deg);
+}
+#valentines-day .char9 {
+  transform: rotate(-12deg);
+}
+#valentines-day .char10 {
+  transform: rotate(-18deg);
+}
+#valentines-day .char11 {
+  transform: rotate(-24deg);
+}
+#valentines-day .char12 {
+  transform: rotate(-36deg);
+}
+#valentines-day .char13 {
+  transform: rotate(-48deg);
+}
+#valentines-day .char14 {
+  transform: rotate(-60deg);
+}
+#valentines-day .char15 {
+  transform: rotate(-72deg);
+}
+
+h3 {
+  font-size: 5rem;
+  font-family: MonoSpace;
+}
+
+#adore {
+  position: absolute;
+  top: 2%;
+  width: fit-content;
+  transform: rotate(-30deg);
+  animation: white-pink 10s infinite;
+}
+
+@keyframes white-pink {
+  0% {
+    color: pink;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+#affection {
+  position: absolute;
+  width: fit-content;
+  top: 100%;
+  left: 5%;
+  transform: rotate(15deg);
+  animation: white-pink 8s infinite;
+}
+
+#tenderness {
+  position: absolute;
+  width: fit-content;
+  top: 75%;
+  right: -25%;
+  margin: 0rem;
+  transform: rotate(-10deg);
+  animation: white-pink 12s infinite;
+}
+
+#heart-button {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+
+#sparkle-heart {
+  font-size: 20rem;
+  margin: 0rem;
+}
+
+#open-text {
+  color: white;
+  font-size: 5rem;
+  font-family: MonoSpace;
+  width: 40%;
+  position: relative;
+  margin-top: -65%;
+  margin-left: 30%;
+  text-align: center;
+  text-shadow: black 0px 0px 11px;
+}
+
+.dark {
+  background-color: #050505;
+}
+
+#inside h2 {
+  color: white;
+  font: 7rem serif;
+  text-align: center;
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: "Tangerine", cursive;
+}
+
+#inside h1 {
+  color: white;
+  font-size: 8rem;
+  text-align: center;
+  font-family: "Creepster", cursive;
+}
+
+#lightning {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+#moon {
+  position: relative;
+  float: right;
+  margin-top: -20%;
+}
+
+#skull {
+  height: 10rem;
+  width: auto;
+}
+
+#anatomical {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  height: 8rem;
+  animation: beat-size 1s infinite;
+}
+
+@keyframes beat-size {
+  0% {
+    height: 8rem;
+  }
+  10% {
+    height: 10rem;
+  }
+  20% {
+    height: 8rem;
+  }
+  60% {
+    height: 8rem;
+  }
+  70% {
+    height: 10rem;
+  }
+  80% {
+    height: 8rem;
+  }
+}
+
+#wolf {
+  position: absolute;
+  right: 0;
+  top: 60%;
+  height: 20%;
+}
