@@ -259,7 +259,7 @@ h3 {
 #anatomical {
   position: absolute;
   left: 40%;
-  top: 60%;
+  top: 75%;
   height: 8rem;
   animation: beat-size 1s infinite;
 }
